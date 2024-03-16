@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+<h1> About Me</h1>
+<p> Hi, my name is Jazper Jacob, I am a student at SDGKU and a Sales Consultant for a Mazda dealership</p>
+<p> Here is a cool picture of a sneaker that I generated with AI</p>
+<img src="{% static 'img/sneaker.jpg' %}" style="width:30%; ">
+{% endblock content %}
